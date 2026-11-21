@@ -78,7 +78,7 @@ if not is_valid:
 Si su organización requiere auditorías de seguridad en IA, blindaje de agentes para WhatsApp/web o adecuación al Reglamento de IA de la UE:
 
 * **Portal Corporativo:** [TAVARDT España](https://ag.tavardt.com/es/super-intelligence/)
-* **Contacto Técnico Especializado:** [Solicitar Consulta Técnica](https://ag.tavardt.com/es/contacto/)
+* **Contacto Técnico Especializado:** [Contactar con el Equipo de Ingeniería](https://ag.tavardt.com/es/contacto/)
 
 ---
 
