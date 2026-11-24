@@ -7,9 +7,9 @@
 
 Blueprint declarativo y middleware de código abierto para la mitigación de Prompt Injection (OWASP LLM01), fuga de system prompt y manipulación adversarial en agentes de IA, conforme al Esquema Nacional de Seguridad (ENS) y el Reglamento Europeo de IA (AI Act).
 
-Desarrollado y mantenido por el equipo de ingeniería de inteligencia artificial de **[TAVARDT España](https://ag.tavardt.com/es/super-intelligence/)**.
+Desarrollado y mantenido por el equipo de ingeniería de inteligencia artificial de **TAVARDT España**.
 
----
+***
 
 ## 1. Visión General de la Seguridad en IA y Modelos de Lenguaje
 
@@ -18,27 +18,27 @@ Este repositorio proporciona un middleware ligero y modular para la implementaci
 ### La Necesidad Crítica de Guardrails en Aplicaciones de IA
 Los modelos de lenguaje no distinguen por defecto entre las instrucciones de control del sistema y los datos provistos por el usuario. Sin barreras activas de validación de entrada y salida, las aplicaciones quedan expuestas a la toma de control del modelo (jailbreak) y a la extracción de datos sensibles.
 
----
+***
 
 ## 2. Vectores de Amenaza Mitigados (OWASP Top 10 for LLMs)
 
 | Capa de Defensa | Vector de Amenaza Mitigado | Mecanismo de Mitigación |
-| :--- | :--- | :--- |
+| :- | :- | :- |
 | **Input Sanitizer** | Inyección Directa de Prompt (Jailbreak) | Detección perimetral de patrones adversariales (`ignora las instrucciones anteriores`, `DAN`, tags XML manipuladas). |
 | **Canary Token Verifier** | Fuga de Prompt de Sistema | Rastrear tokens canario inviolables en la salida generada para impedir la exfiltración de directrices internas. |
 | **RAG Boundary Guard** | Inyección Indirecta de Prompt | Aislamiento y delimitación semántica de documentos externos incorporados a bases de datos vectoriales. |
 | **Structured Output Filter** | Invocación No Autorizada de Tools | Validación estricta de esquemas JSON antes de permitir la ejecución de llamadas a funciones o conectores MCP. |
 
----
+***
 
 ## 3. Diagnóstico Previo de Robustez de su Modelo de IA
 
 Antes de desplegar agentes conversacionales o automatizaciones críticas, examine la resiliencia de su modelo mediante la herramienta abierta de TAVARDT:
 
-* **Evaluación de Robustez:** [Evaluador de Robustez de LLMs TAVARDT España](https://tools.tavardt.com/es/evaluador-robustez-llm/)
-* **Catálogo Global de Herramientas:** [TAVARDT Tools España](https://tools.tavardt.com/es/)
+* **Evaluación de Robustez:** Evaluador de Robustez de LLMs TAVARDT España
+* **Catálogo Global de Herramientas:** **TAVARDT Tools España**
 
----
+***
 
 ## 4. Instalación y Guía Rápida de Integración
 
@@ -71,16 +71,16 @@ if not is_valid:
     raise SecurityError("Fallo crítico: ¡Fuga de system prompt detectada mediante token canario!")
 ```
 
----
+***
 
 ## 5. Consultoría Especializada en Agentes de IA y Ciberseguridad
 
 Si su organización requiere auditorías de seguridad en IA, blindaje de agentes para WhatsApp/web o adecuación al Reglamento de IA de la UE:
 
-* **Portal Corporativo:** [TAVARDT España](https://ag.tavardt.com/es/super-intelligence/)
+* **Portal Corporativo:** **TAVARDT España**
 * **Contacto Técnico Especializado:** [Contactar con el Equipo de Ingeniería](https://ag.tavardt.com/es/contacto/)
 
----
+***
 
 ## Licencia
 
