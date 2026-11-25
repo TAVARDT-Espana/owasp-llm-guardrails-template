@@ -90,10 +90,9 @@ Si su organización requiere auditorías de seguridad en IA, blindaje de agentes
 
 ***
 
-## Licencia
+### Licencia
 
-Distribuido bajo licencia de código abierto MIT. Consulte el archivo [`LICENSE`](LICENSE) para más detalles.  
-Copyright
+Distribuido bajo licencia de código abierto MIT. Consulte el archivo [`LICENSE`](LICENSE) para más detalles.
 
 ***
 
